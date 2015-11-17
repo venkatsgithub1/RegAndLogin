@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+<style>
+body {
+	font-family: "Josefin Slab";
+	font-size: 35px;
+	color: #cc9900;
+	background-color: #00ff99;
+}
+.class1 {
+	width:200px;
+	height:30px; 
+	border-radius: 60px;
+	background-color: #ff3300;
+	color: white;
+	font-size:20px;
+}
+table {
+	font-weight: bold;
+	font-size: 25px;
+}
+p{
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Registration Successful</h1>
+<p>Login below</p>
+<table>
+<form action="http://localhost:3000/somePage" method="post">
+<tr>
+<td>Username: </td>
+<td><input type="username" name="username"/></td>
+</tr>
+<tr>
+<td>Password: </td>
+<td><input type="password" name="pwd"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Login" name="regOrLogin" class="class1"/>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
